@@ -38,7 +38,7 @@ export default function ActionAreaCard(props) {
   let img = props.img;
 
   return (
-    <Card>
+    <Card sx={{mb: 4}}>
       <Grid container>
         <Grid item md={1}></Grid>
         <Grid item xs={6} md={8}>
